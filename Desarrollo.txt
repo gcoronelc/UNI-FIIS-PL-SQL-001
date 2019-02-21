@@ -1,0 +1,6 @@
+CLASE 01
+================================
+1.- Presentación
+2.- El estandar
+3.- Instalación de git
+4.- Clonar repositorio
