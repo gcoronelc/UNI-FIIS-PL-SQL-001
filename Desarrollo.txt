@@ -4,3 +4,9 @@ CLASE 01
 2.- El estandar
 3.- Instalación de git
 4.- Clonar repositorio
+5.- Arquitectura dr Oracle
+6.- Herramientas de trabajo
+7.- Conexion remota
+8.- Esquemas de trabajo
+
+
