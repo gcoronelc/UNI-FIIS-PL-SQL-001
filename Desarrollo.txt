@@ -10,3 +10,19 @@ CLASE 01
 8.- Esquemas de trabajo
 
 
+CLASE 02
+================================	
+1.- Repaso de la conexión con Oracle
+2.- Bloque aninimo
+3.- Funciones
+4.- Procedimientos
+5.- Variables y Parámetros
+6.- Estructuras de control
+
+CLASE 03
+================================	
+1.- Sequencias
+2.- Tablas Temprales
+3.- 
+
+
