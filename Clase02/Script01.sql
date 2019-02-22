@@ -103,11 +103,11 @@ end;
 /
 
 declare
-  v_empno   number;
-  v_salario number;
+  v_empno   number(8);
+  v_salario number(10,2);
 begin
   -- dato
-  v_empno := 74994;
+  v_empno := 7499;
   -- Proceso
   scott.pr_lee_salario( v_empno, v_salario );
   -- Reporte
@@ -116,6 +116,32 @@ end;
 /
 
 
+-- Ejemplo 6
 
+
+create or replace procedure 
+scott.pr_lee_salario2(
+  p_empno   in  scott.emp.empno%type,
+  p_salario out scott.emp.sal%type
+) is
+begin
+  select sal into p_salario 
+  from scott.emp 
+  where empno = p_empno;
+end;
+/
+
+declare
+  v_empno   scott.emp.empno%type;
+  v_salario scott.emp.sal%type;
+begin
+  -- dato
+  v_empno := 7499;
+  -- Proceso
+  scott.pr_lee_salario2( v_empno, v_salario );
+  -- Reporte
+  dbms_output.put_line('Salario: ' || v_salario );
+end;
+/
 
 
