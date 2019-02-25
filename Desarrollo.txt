@@ -21,8 +21,10 @@ CLASE 02
 
 CLASE 03
 ================================	
-1.- Sequencias
-2.- Tablas Temprales
-3.- 
+1.- Instalación de Oracle
+2.- Sequencias
+3.- Tablas Temprales
+4.- Estructuras de datos
+5.- Excepciones
 
 

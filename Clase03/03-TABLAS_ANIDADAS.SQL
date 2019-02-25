@@ -15,21 +15,21 @@ TYPE type_name IS TABLE OF
 
 DECLARE
 	TYPE tabla_varchar2 IS TABLE OF VARCHAR2 (100);
-	empleados   tabla_varchar2 := tabla_varchar2 ();
+	empleados tabla_varchar2 := tabla_varchar2 ();
 BEGIN
-	-- Tamaño Inicial
-	DBMS_OUTPUT.PUT_LINE('Tamaño Inicial: ' || empleados.COUNT);
-	-- Se añaden 4 elementos
+	-- TamaÃ±o Inicial
+	DBMS_OUTPUT.PUT_LINE('TamaÃ±o Inicial: ' || empleados.COUNT);
+	-- Se aÃ±aden 4 elementos
 	empleados.EXTEND (4);
 	empleados (1) := 'Pepe';
 	empleados (2) := 'Elena';
 	empleados (3) := 'Carmen';
 	empleados (4) := 'Juan';
-	-- Se añade un elemento mas
+	-- Se aÃ±ade un elemento mas
 	empleados.EXTEND;
 	empleados (empleados.LAST) := 'Gustavo';
-	-- Tamaño Final
-	DBMS_OUTPUT.PUT_LINE('Tamaño Final: ' || empleados.COUNT);
+	-- TamaÃ±o Final
+	DBMS_OUTPUT.PUT_LINE('TamaÃ±o Final: ' || empleados.COUNT);
 	-- Mostrar lista
 	FOR I IN 1 .. empleados.COUNT
 	LOOP
@@ -49,14 +49,15 @@ DECLARE
 	V_EMPLEADOS TABLA_EMPLEADOS;
 BEGIN
 	V_EMPLEADOS := TABLA_EMPLEADOS();
-	DBMS_OUTPUT.PUT_LINE('TAMAÑO INICIAL: ' || V_EMPLEADOS.COUNT);
+	DBMS_OUTPUT.PUT_LINE('TAMAÃ‘O INICIAL: ' || V_EMPLEADOS.COUNT);
 	FOR REC IN (SELECT * FROM RECURSOS.EMPLEADO) LOOP
 		V_EMPLEADOS.EXTEND;
 		V_EMPLEADOS(V_EMPLEADOS.LAST) := REC;
 	END LOOP;
-	DBMS_OUTPUT.PUT_LINE('TAMAÑO FINAL: ' || V_EMPLEADOS.COUNT);
+	DBMS_OUTPUT.PUT_LINE('TAMAÃ‘O FINAL: ' || V_EMPLEADOS.COUNT);
 	FOR I IN V_EMPLEADOS.FIRST..V_EMPLEADOS.LAST LOOP
-		DBMS_OUTPUT.PUT_LINE( I || '.- ' || V_EMPLEADOS(I).NOMBRE);
+		DBMS_OUTPUT.PUT_LINE( I || '.- ' || V_EMPLEADOS(I).NOMBRE
+      || ' ' || V_EMPLEADOS(I).APELLIDO);
 	END LOOP;
 END;
 /
