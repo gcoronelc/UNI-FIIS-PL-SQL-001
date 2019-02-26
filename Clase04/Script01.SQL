@@ -1,5 +1,12 @@
+
+
 -- ============================================
 -- SENTENCIAS BASICAS DEL LENGUANE SQL
+--    - DDL (CREATE, ALTER, DROP)
+--    - DML (SELECT, INSERT, UPDATE, DELETE)
+--    - CONTROL DE TRANSACCIONES (COMMIT, ROLLBACK)
+--    - CONTROL DE SESIONES (ALTER SESSION)
+--    - CONTROL DEL SISTEMA (ALTER SYSTEM)
 -- ============================================
 
 
@@ -84,12 +91,41 @@ COMMIT;
 -- Eliminar registros de una tabla
 /*
 
-UPDATE ESQUEMA.TABLA
-SET
-  <COLUMNA1> = <VALOR1>,
-  <COLUMNA2> = <VALOR2>,
-  . . . 
-  . . .
+DELETE FROM ESQUEMA.TABLA
 WHERE <FILTRO>;
 
 */
+
+DELETE FROM SCOTT.EMP 
+WHERE EMPNO = 7777;
+
+SELECT * FROM SCOTT.EMP;
+
+ROLLBACK;
+
+SELECT * FROM SCOTT.EMP;
+
+
+
+-- ============================================
+-- CONTROL DE TRANSACCIONES
+-- COMMIT y ROLLBACK
+-- ============================================
+
+/*
+
+La transacción se activa con la primera sentencia
+INSERT, UPDATE, DELETE o SELECT - FOR UPDATE
+
+Se confirma con COMMIT.
+
+Se cancela con ROLLBACK.
+
+*/
+
+SELECT * FROM SCOTT.EMP
+FOR UPDATE;
+
+ROLLBACK;
+
+
