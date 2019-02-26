@@ -27,4 +27,9 @@ CLASE 03
 4.- Estructuras de datos
 5.- Excepciones
 
+CLASE 04
+================================	
+1.- LENGUAJE SQL
+2.- SQL EN PL/SQL
+3.- TRANSACCIONES - CASO
 
