@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>OCA Study Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+@import url("Fonts.css");
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#000000" link="#CC0000" vlink="#CC0000" onLoad="MM_preloadImages('acrobat2.jpg','ebook2.jpg','engine2.jpg','palm2.jpg','pocketpc2.jpg')">
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" height="98">
+  <tr> 
+    <td valign="top" bgcolor="#FFFFFF"> 
+      <div align="center"><img src="Lighthouse.jpg" width="640" height="204" border="0" usemap="#Map"></div>
+    </td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" height="29" bordercolor="#000000" bgcolor="#FFFFFF">
+  <tr valign="baseline" align="center" bordercolor="#FFFFFF"> 
+    <td width="173" height="29"> 
+      <div align="center"><a href="acrobat.html" target="_top" onMouseOver="MM_nbGroup('over','acrobat','acrobat2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="acrobat.jpg" width="83" height="18" border="0" name="acrobat"></a></div>
+    </td>
+    <td width="86" height="29"> 
+      <div align="center"><a href="Sybex/ebook.html" target="_top"></a><a href="ebook.html" target="_top" onMouseOver="MM_nbGroup('over','ebook','ebook2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="ebook.jpg" width="37" height="18" border="0" name="ebook" onLoad=""></a></div>
+    </td>
+    <td width="147" height="29"> 
+      <div align="center"><a href="Sybex/edge.html" target="_top"></a><a href="edge.html" target="_top" onMouseOver="MM_nbGroup('over','engine','engine2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="engine.jpg" width="58" height="18" border="0" name="engine" onLoad=""></a></div>
+    </td>
+    <td colspan="2" height="29" width="237"> 
+      <div align="center"><img src="flashcards.jpg" width="63" height="18"><a href="Sybex/palm.html" target="_top"></a><a href="palm.html" target="_top" onMouseOver="MM_nbGroup('over','palm','palm2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="palm.jpg" width="36" height="18" border="0" name="palm" onLoad=""></a><a href="Sybex/pc.html" target="_top"></a><a href="pc.html" target="_top" onMouseOver="MM_nbGroup('over','pc','pc2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="pc.jpg" width="25" height="18" border="0" name="pc" onLoad=""></a><a href="Sybex/pocketpc.html" target="_top"></a><a href="pocketpc.html" target="_top" onMouseOver="MM_nbGroup('over','pocketpc','pocketpc2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="pocketpc.jpg" width="57" height="18" border="0" name="pocketpc" onLoad=""></a></div>
+    </td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td width="40" valign="top">&nbsp;</td>
+    <td width="571"> 
+      <table width="492" border="1" cellspacing="0" cellpadding="10" align="center" bordercolor="#FFFFFF">
+        <tr>
+          <td width="430"> 
+            <p><font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#000000"><font size="3"><b><font size="2" face="Arial, Helvetica, sans-serif" class="general">SYBEX PRODUCT SUPPORT</font></b></font></font></p>
+            <p><font size="2" face="Arial, Helvetica, sans-serif" class="general">Sybex has tried to answer any problems that you may experience using the software on this CD. If you do experience problems running this CD and the Readme file doesn't have the information you need, please follow these steps: </font> </p>
+            <ol>
+              <li class="general"><font face="Arial, Helvetica, sans-serif" class="general"><font size="2" class="general"> Visit the Sybex website at this address: <a href="http://www.sybex.com" target="_blank">www.sybex.com</a>.</font></font></li>
+              <li class="general"><font face="Arial, Helvetica, sans-serif" class="general"><font size="2" class="general">In the search entry box, type the last five digits of the book's ISBN (printed on book cover and CD label) and click GO.</font></font></li>
+              <li class="general"><font face="Arial, Helvetica, sans-serif"><font size="2" class="general">The search engine should retrieve a hyperlink for the book title. Click this link. </font></font></li>
+              <li class="general"><font face="Arial, Helvetica, sans-serif"><font size="2" class="general">If we have made any updates to the Readme file or to the book, they will be available via the web page that the link takes you to. If there is an Update or Errata button on the page, click it.</font></font></li>
+            </ol>
+            <p><font face="Arial, Helvetica, sans-serif"><font size="2" class="general">To fill out a request for product support, click <a href="http://www.sybex.com/WebUserFeedback.nsf/ProductSupport?OpenForm" target="_blank">here</a><br>
+              </font></font><font face="Arial, Helvetica, sans-serif"><font size="2" class="general">To report a book content issue, click <a href="http://www.sybex.com/webuserfeedback.nsf/Service+Request?OpenForm" target="_blank">here</a><br>
+  To get answers to the most frequently asked questions, click <a href="http://www.sybex.com/sybexbooks.nsf/f8b757a5c6780f3b8825696100043e5b/44db23f5566009b288256a69005f9b95!OpenDocument" target="_blank">here</a></font></font></p></td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="32" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" height="26">
+  <tr> 
+    <td width="57" height="47"> 
+      <div align="left"><a href="ps.html" target="_top"><img src="info2.jpg" width="50" height="55" border="0"></a></div>
+    </td>
+    <td width="150" height="47">&nbsp;</td>
+    <td width="366" height="47"> 
+    <div align="right"><font size="1" face="Geneva, Arial, Helvetica, san-serif" class="fine">Copyright &copy; 2005 Sybex Inc.</font></div></td>
+    <td width="67" height="47"> 
+      <div align="right"><a href="http://www.sybex.com" target="_blank"><img src="logo.jpg" width="50" height="55" border="0" align="absbottom"></a></div>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<map name="Map">
+  <area shape="rect" coords="-1,2,641,201" href="Readme.html">
+</map>
+</body>
+</html>

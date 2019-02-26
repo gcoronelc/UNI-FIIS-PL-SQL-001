@@ -1,0 +1,139 @@
+<html>
+<head>
+<title>OCA Study Guide</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && document.getElementById) x=document.getElementById(n); return x;
+}
+
+function MM_nbGroup(event, grpName) { //v3.0
+  var i,img,nbArr,args=MM_nbGroup.arguments;
+  if (event == "init" && args.length > 2) {
+    if ((img = MM_findObj(args[2])) != null && !img.MM_init) {
+      img.MM_init = true; img.MM_up = args[3]; img.MM_dn = img.src;
+      if ((nbArr = document[grpName]) == null) nbArr = document[grpName] = new Array();
+      nbArr[nbArr.length] = img;
+      for (i=4; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+        if (!img.MM_up) img.MM_up = img.src;
+        img.src = img.MM_dn = args[i+1];
+        nbArr[nbArr.length] = img;
+    } }
+  } else if (event == "over") {
+    document.MM_nbOver = nbArr = new Array();
+    for (i=1; i < args.length-1; i+=3) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = (img.MM_dn && args[i+2]) ? args[i+2] : args[i+1];
+      nbArr[nbArr.length] = img;
+    }
+  } else if (event == "out" ) {
+    for (i=0; i < document.MM_nbOver.length; i++) {
+      img = document.MM_nbOver[i]; img.src = (img.MM_dn) ? img.MM_dn : img.MM_up; }
+  } else if (event == "down") {
+    if ((nbArr = document[grpName]) != null)
+      for (i=0; i < nbArr.length; i++) { img=nbArr[i]; img.src = img.MM_up; img.MM_dn = 0; }
+    document[grpName] = nbArr = new Array();
+    for (i=2; i < args.length-1; i+=2) if ((img = MM_findObj(args[i])) != null) {
+      if (!img.MM_up) img.MM_up = img.src;
+      img.src = img.MM_dn = args[i+1];
+      nbArr[nbArr.length] = img;
+  } }
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+@import url("Fonts.css");
+-->
+</style>
+</head>
+
+<body bgcolor="#000000" text="#000000" link="#CC0000" vlink="#CC0000" onLoad="MM_preloadImages('ebook2.jpg','engine2.jpg','palm2.jpg','pocketpc2.jpg')">
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" height="98">
+  <tr> 
+    <td valign="top" bgcolor="#FFFFFF"> 
+      <div align="center"><img src="Lighthouse.jpg" width="640" height="204" border="0" usemap="#Map"></div>
+    </td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" height="29" bordercolor="#000000" bgcolor="#FFFFFF">
+  <tr valign="baseline" align="center" bordercolor="#FFFFFF"> 
+    <td width="173" height="29"> 
+      <div align="center"><img src="acrobat2.jpg" width="83" height="18" border="0" name="acrobat"></div>
+    </td>
+    <td width="86" height="29"> 
+      <div align="center"><a href="Sybex/ebook.html" target="_top"></a><a href="ebook.html" target="_top" onMouseOver="MM_nbGroup('over','ebook','ebook2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="ebook.jpg" width="37" height="18" border="0" name="ebook" onLoad=""></a></div>
+    </td>
+    <td width="147" height="29"> 
+      <div align="center"><a href="Sybex/edge.html" target="_top"></a><a href="edge.html" target="_top" onMouseOver="MM_nbGroup('over','engine','engine2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="engine.jpg" width="58" height="18" border="0" name="engine" onLoad=""></a></div>
+    </td>
+    <td colspan="2" height="29" width="237"> 
+      <div align="center"><img src="flashcards.jpg" width="63" height="18"><a href="Sybex/palm.html" target="_top"></a><a href="palm.html" target="_top" onMouseOver="MM_nbGroup('over','palm','palm2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="palm.jpg" width="36" height="18" border="0" name="palm" onLoad=""></a><a href="Sybex/pc.html" target="_top"></a><a href="pc.html" target="_top" onMouseOver="MM_nbGroup('over','pc','pc2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="pc.jpg" width="25" height="18" border="0" name="pc" onLoad=""></a><a href="Sybex/pocketpc.html" target="_top"></a><a href="pocketpc.html" target="_top" onMouseOver="MM_nbGroup('over','pocketpc','pocketpc2.jpg','',1)" onMouseOut="MM_nbGroup('out')"><img src="pocketpc.jpg" width="57" height="18" border="0" name="pocketpc" onLoad=""></a></div>
+    </td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF">
+  <tr>
+    <td width="40" valign="top">&nbsp;</td>
+    <td width="571"> 
+      <table width="492" border="1" cellspacing="0" cellpadding="10" align="center" bordercolor="#FFFFFF">
+        <tr>
+          <td width="430"> 
+            <p><font face="Gill Sans MT" size="2" color="#000000"><b><strong><font face="Arial, Helvetica, sans-serif" class="general">Adobe 
+              Acrobat Reader 7.0 </font></strong></b><font face="Arial, Helvetica, sans-serif" class="general">allows 
+              you to view portable document format (.pdf) files created in Adobe 
+              Acrobat. Included is the Reader for Windows operating systems.</font></font></p>
+            <p><span class="general"><strong>System Requirement:</strong> Windows 
+              2000 Professional or Windows XP; for earlier versions of Acrobat, 
+              please visit <a href="http://www.adobe.com" target="_blank">www.adobe.com</a>.</span></p>
+            <p><font color="#000000" size="2" face="Arial, Helvetica, sans-serif" class="general">To 
+              install Adobe Acrobat Reader, open the Adobe folder, then double-click 
+              <a href="../Adobe/setup.exe">setup.exe</a>. You will be guided through 
+              the installation process.</font></p>
+            <p><font color="#000000" size="2" face="Arial, Helvetica, sans-serif" class="fine">Note about PDF files: Some users may encounter image blurring in certain files. If so, use the zoom tool to enlarge the view of the blurred area. PDF components of third-party software may be supported by the specific owner(s) of that material but they are not supported by SYBEX.</font></p>
+            <p><font color="#000000" size="1" face="Arial, Helvetica, sans-serif" class="fine">Copyright&copy; 
+              1987-2005 Adobe Systems Incorporated. All rights reserved. </font></p>
+          <p><font color="#000000" size="1" face="Arial, Helvetica, sans-serif" class="fine">Adobe, Acrobat, and the Acrobat logo are trademarks of Adobe Systems Incorporated which may be registered in certain jurisdictions. <a href="http://www.adobe.com" target="_blank">http://www.adobe.com</a></font></p></td>
+        </tr>
+      </table>
+      
+    </td>
+    <td width="32" valign="top">&nbsp;</td>
+  </tr>
+</table>
+<table width="640" border="0" cellspacing="0" cellpadding="0" align="center" bgcolor="#FFFFFF" height="26">
+  <tr> 
+    <td width="57" height="47"> 
+      <div align="left"><a href="ps.html" target="_top"><img src="info.jpg" width="50" height="55" border="0"></a></div>
+    </td>
+    <td width="150" height="47"><a href="ps.html" target="_top"><font face="Webdings"><font face="Eras Light ITC" size="2"><font size="1" face="Geneva, Arial, Helvetica, san-serif" class="fine">Contact 
+      Sybex Product Support</font></font></font></a></td>
+    <td width="366" height="47"> 
+    <div align="right"><font size="1" face="Geneva, Arial, Helvetica, san-serif" class="fine">Copyright &copy; 2005 Sybex Inc.</font></div></td>
+    <td width="67" height="47"> 
+      <div align="right"><a href="http://www.sybex.com" target="_blank"><img src="logo.jpg" width="50" height="55" border="0" align="absbottom"></a></div>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<map name="Map">
+  <area shape="rect" coords="-1,2,641,201" href="Readme.html">
+</map>
+</body>
+</html>

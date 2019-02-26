@@ -1,0 +1,360 @@
+UNKNOWN {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+.bodylink {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.bodylink:visited {
+	COLOR: #999999; TEXT-DECORATION: underline
+}
+A.bodylink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.bodylink:link {
+	COLOR: black; TEXT-DECORATION: underline
+}
+.boldbodylink {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: underline; visited: #000000
+}
+.body {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.bodycopy {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.boldbodycopy {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.boldbodycopy2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #999999; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #999999
+}
+.boldbodycopy3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #666666; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #666666
+}
+.directorytext {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.g {
+	FONT-WEIGHT: bolder; FONT-SIZE: 24px; COLOR: #000000; FONT-STYLE: italic; FONT-FAMILY: times new roman, times roman, times, serif; TEXT-DECORATION: none; visited: #000000
+}
+.gradient {
+	FILTER: progid:DXImageTransform.Microsoft.Gradient(startColorstr='#DDDDDD', endColorstr='#FFFFFF', gradientType='0')
+}
+.headline {
+	FONT-SIZE: 28px; COLOR: #000000; LINE-HEIGHT: 38px; FONT-FAMILY: arial black, impact, arial, verdana, sans-serif; LETTER-SPACING: -1px; TEXT-DECORATION: none; visited: #000000; wrap-option: hard-wrap
+}
+.italicbodycopy {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.ITALICiBodycopy {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.legalese {
+	FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.legalese:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.legalese:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+.navhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, Sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.navlink {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.navlink:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.navlink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.navlink:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+.parahead1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.parahead1Itali {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #000000; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.parahead2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #666666; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #666666
+}
+.parahead2Itali {
+	FONT-WEIGHT: bold; FONT-SIZE: 16px; COLOR: #666666; FONT-STYLE: italic; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #666666
+}
+.portletTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, Sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+A.portletTitle:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.portletTitle:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.portletTitle:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+.profile {
+	FONT-SIZE: 10px; COLOR: #999999; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #999999
+}
+.tablink {
+	FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.TD {
+	BACKGROUND-IMAGE: url(/admin/images/ocom/content_background.gif); BACKGROUND-REPEAT: no-repeat
+}
+.textA {
+	FONT-SIZE: 11px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.textB {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, Sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.textC {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #999999; FONT-FAMILY: Arial, Helvetica, Sans-serif; TEXT-DECORATION: none; visited: #999999
+}
+.topstoryhead {
+	FONT-WEIGHT: bold; FONT-SIZE: 18px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.h1 {
+	FONT-SIZE: 12px; COLOR: #ff0000; LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.directorytext2 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 17px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+A.directorytext2:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.directorytext2:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.directorytext2:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+.textBnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #000000; FONT-FAMILY: Arial, Helvetica, Sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+A.textBnav:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.textBnav:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.textBnav:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+.textCnav {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #999999; FONT-FAMILY: Arial, Helvetica, Sans-serif; TEXT-DECORATION: none; visited: #999999
+}
+A.textCnav:visited {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A.textCnav:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+A.textCnav:link {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.genericbodybox {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+LI {
+	FONT-SIZE: 12px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.rightNav {
+	WIDTH: 100%; PADDING-TOP: 4px; BACKGROUND-COLOR: #eee
+}
+.footNote {
+	FONT-SIZE: 10px; COLOR: #ccc; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, sans-serif; LETTER-SPACING: -0.01em; TEXT-DECORATION: none
+}
+.footNoteActive {
+	FONT-SIZE: 10px; COLOR: #666; LINE-HEIGHT: 18px; FONT-FAMILY: Arial, sans-serif; LETTER-SPACING: -0.01em; TEXT-DECORATION: none
+}
+.mainHeadLine {
+	FONT: 300 30px/33px "Arial Narrow", "Arial"; TEXT-TRANSFORM: none; COLOR: #000000; LETTER-SPACING: -0.03em; TEXT-DECORATION: none
+}
+A.mainHeadLine:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.mainHeadLine:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.mainHeadLineMedia {
+	FONT: 300 22px/24px "Arial Narrow", "Arial"; TEXT-TRANSFORM: none; COLOR: #000000; LETTER-SPACING: -0.03em; TEXT-DECORATION: none
+}
+A.mainHeadLineMedia:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.mainHeadLineMedia:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.mainSubHeadLineMedia {
+	FONT-SIZE: 13px; TEXT-TRANSFORM: none; COLOR: #333333; LINE-HEIGHT: 15px; FONT-STYLE: normal; FONT-FAMILY: "Arial"; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+A.mainSubHeadLineMedia:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.mainSubHeadLineMedia:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.mainSubHeadLine {
+	FONT-SIZE: 15px; TEXT-TRANSFORM: none; COLOR: #666666; LINE-HEIGHT: 19px; FONT-STYLE: normal; FONT-FAMILY: "Arial"; FONT-VARIANT: normal; TEXT-DECORATION: none
+}
+A.mainSubHeadLine:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.mainSubHeadLine:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.mainBorderTop {
+	BORDER-TOP: #ececec 1px solid; PADDING-BOTTOM: 3px
+}
+.subStoryHeadLine {
+	FONT: bold 15px/16px "Arial"; TEXT-TRANSFORM: none; COLOR: #000000; LETTER-SPACING: -0.01em; TEXT-DECORATION: none
+}
+A.subStoryHeadLine:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.subStoryHeadLine:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+.subStorySubHeadLine {
+	FONT: 12px/15px "Arial"; TEXT-TRANSFORM: none; COLOR: #666666; TEXT-DECORATION: none
+}
+A.subStorySubHeadLine:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.subStorySubHeadLine:hover {
+	COLOR: #666666; TEXT-DECORATION: underline
+}
+.rightNavHeadLine {
+	FONT: bold 13px/20px "Arial"; TEXT-TRANSFORM: none; COLOR: #000000; LETTER-SPACING: -0.03em; TEXT-DECORATION: none
+}
+A.rightNavHeadLine:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.rightNavHeadLine:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.rightNavSubHeadLine {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}
+A.rightNavSubHeadLine:hover {
+	COLOR: #000000; TEXT-DECORATION: underline
+}
+A.rightNavSubHeadLine:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.padRight {
+	PADDING-RIGHT: 10px
+}
+.mainBkg {
+	BACKGROUND-IMAGE: url(/admin/images/ocom/hp/mainimage_1.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.rightNavBkg {
+	BACKGROUND-IMAGE: url(/admin/images/ocom/hp/customer_1.jpg); BACKGROUND-REPEAT: no-repeat
+}
+.bodycopy1 {
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 14px; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none; visited: #000000
+}
+.padLeft {
+	PADDING-LEFT: 10px
+}
+.subStoryHeadLine1 {
+	FONT: bold 15px/20px "Arial"; TEXT-TRANSFORM: capitalize; COLOR: #000000; LETTER-SPACING: -0.01em; TEXT-DECORATION: none
+}
+#banner {
+	BACKGROUND: #fff; MARGIN: 0px 10px; BORDER-BOTTOM: #ccc 1px solid; HEIGHT: 75px
+}
+#main {
+	BACKGROUND: #fff; MARGIN: 0px 10px
+}
+#footer {
+	BORDER-TOP: #ccc 1px solid; BACKGROUND: #fff
+}
+#bannerMid {
+	BACKGROUND: #fff; WIDTH: 535px; HEIGHT: 50px
+}
+A.headlink {
+	FONT-WEIGHT: 400; FONT-SIZE: 10px; COLOR: #000000; LINE-HEIGHT: 33px; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+A.headlink:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.headlink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.Bheadlink {
+	FONT-WEIGHT: 400; FONT-SIZE: 10px; COLOR: #000000; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+A.Bheadlink:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.Bheadlink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.loclink {
+	BORDER-TOP: #ff0000 18px solid; FONT-SIZE: 10px; COLOR: #ff0000; LINE-HEIGHT: 33px; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+A.subnavlink {
+	FONT-WEIGHT: 400; FONT-SIZE: 11px; MARGIN-LEFT: 10px; COLOR: #000000; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+A.subnavlink:link {
+	COLOR: black; TEXT-DECORATION: none
+}
+A.subnavlink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.bannerlink {
+	FONT-WEIGHT: 400; FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+A.bannerlink:link {
+	COLOR: #666666; TEXT-DECORATION: none
+}
+A.bannerlink:hover {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+.navsection {
+	BORDER-RIGHT: #cccccc 1px solid
+}
+.searchBox {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.padBox {
+	PADDING-RIGHT: 0px; PADDING-LEFT: 10px; PADDING-BOTTOM: 3px; PADDING-TOP: 0px
+}
+.pad {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; PADDING-BOTTOM: 10px; PADDING-TOP: 0px
+}
+.padMid {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 10px; PADDING-BOTTOM: 0px; PADDING-TOP: 0px
+}
+#navHeadLine {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 4px
+}
+#navSpacers {
+	BORDER-RIGHT: #cccccc 1px solid
+}
+#navBottomTop {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; PADDING-TOP: 4px
+}
+#navTop {
+	BORDER-TOP: #cccccc 1px solid
+}
+#navBottom {
+	BORDER-RIGHT: #cccccc 1px solid; PADDING-RIGHT: 5px; PADDING-LEFT: 0px; PADDING-BOTTOM: 4px; PADDING-TOP: 4px; BORDER-BOTTOM: #cccccc 1px solid
+}
+.navTitle {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; MARGIN-LEFT: 10px; COLOR: #ff0000; LINE-HEIGHT: 16px; FONT-FAMILY: Arial, sans-serif; TEXT-DECORATION: none
+}
+A.navTitle:link {
+	COLOR: #ff0000; TEXT-DECORATION: none
+}
+A.navTitle:hover {
+	COLOR: #ff0000; TEXT-DECORATION: underline
+}
+.clsNode {
+	FONT-WEIGHT: 700; FONT-SIZE: 10px; WIDTH: 150px; COLOR: #000000; PADDING-TOP: 5px; BORDER-BOTTOM: #999999 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif; TEXT-DECORATION: none
+}

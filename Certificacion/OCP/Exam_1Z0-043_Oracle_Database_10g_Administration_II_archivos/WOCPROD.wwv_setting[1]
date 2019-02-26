@@ -1,0 +1,291 @@
+.GroupHeaderid4siteid0 {
+	HEIGHT: 20px; BACKGROUND-COLOR: #336699; TEXT-ALIGN: left
+}
+.GroupHeaderLinkid4siteid0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica
+}
+.GroupHeaderTextid4siteid0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica
+}
+.RegionHeaderid4siteid0 {
+	HEIGHT: 20px; BACKGROUND-COLOR: #666666; TEXT-ALIGN: left
+}
+.RegionHeaderTextid4siteid0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Tahoma
+}
+.Bodyid4siteid0 {
+	BACKGROUND-COLOR: #ffffff
+}
+.Collateral_Typeid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.Elogger_Trackableid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_AUTHENTICATIONid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_COUNTRYid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_COUNTRY_REGIONid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_DISPLAYABLEid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_INITIATIVES_INVOLVEMENTid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_LANGUAGEid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_MASTERid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_OPN_ACCESS_LEVELid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_OPP_LEVELid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_PARTNER_TYPEid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_PRIORITYid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_REGIONid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_SEARCHABLEid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_SUMMARYid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PPG_TECH_TRACKid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PRSubHeadingid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Approvalid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Company1id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Company2id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Contact_Name1id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Contact_Name2id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Email1id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Email2id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Headingid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Locationid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Phone1id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PR_Phone2id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.Searchableid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.applicationtypeid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.authorid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.createdateid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.creatorid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.defaultattributeid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.descriptionid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.documentsizeid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.expiredateid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.help_urlid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.initialpagenameid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.inplacedisplayid4siteid0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 12pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.itemfunctionid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.keywordsid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.perspectivesid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.portletidid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.provideridid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.providernameid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.titleid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.titleorimageid4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Tahoma
+}
+.wwsbr_category_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_expirationperiod_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_itemtype_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_page_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_pagegroup_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_portletname_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_publishdate_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_updatedate_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.wwsbr_updator_id4siteid0 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.LeftCurve {
+	BACKGROUND-POSITION: left top; BACKGROUND-ATTACHMENT: scroll; BACKGROUND-IMAGE: url(http://www.oracle.com/portalimages/FFFFFFl.gif); BACKGROUND-REPEAT: no-repeat
+}
+.PortletBodyColor {
+	
+}
+.PortletHeaderColor {
+	BACKGROUND-COLOR: #336699
+}
+.PortletHeaderLink {
+	FONT-SIZE: 8pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica
+}
+.PortletHeaderStyle {
+	
+}
+.PortletHeaderText {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica
+}
+.PortletHeading1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 9pt; COLOR: #336699; FONT-FAMILY: Arial, Helvetica
+}
+.PortletHeading2 {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; COLOR: #336699; FONT-FAMILY: Arial, Helvetica
+}
+.PortletHeading3 {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #336699; FONT-FAMILY: Arial, Helvetica
+}
+.PortletHeading4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 7pt; COLOR: #336699; FONT-FAMILY: Arial, Helvetica
+}
+.PortletSubHeaderColor {
+	BACKGROUND-COLOR: #eeeedd
+}
+.PortletSubHeaderLink {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PortletSubHeaderText {
+	FONT-SIZE: 9pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PortletText1 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PortletText2 {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PortletText3 {
+	FONT-SIZE: 7pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.PortletText4 {
+	FONT-SIZE: 7pt; COLOR: #000000; FONT-FAMILY: Arial, Helvetica
+}
+.RightCurve {
+	BACKGROUND-POSITION: right top; BACKGROUND-ATTACHMENT: scroll; BACKGROUND-IMAGE: url(http://www.oracle.com/portalimages/FFFFFFr.gif); BACKGROUND-REPEAT: no-repeat
+}
+.LeftSubTabid4siteid0 {
+	BACKGROUND: url(http://www.oracle.com/portalimages/FFFFFFsl.gif) #336699 no-repeat left top
+}
+.LeftTabBgSlantid4siteid0 {
+	BACKGROUND: url(http://www.oracle.com/portalimages/FFFFFFtl.gif) #cccc99 no-repeat left top
+}
+.LeftTabForeSlantid4siteid0 {
+	BACKGROUND: url(http://www.oracle.com/portalimages/FFFFFFtl.gif) #336699 no-repeat left top
+}
+.RightSubTabid4siteid0 {
+	BACKGROUND: url(http://www.oracle.com/portalimages/FFFFFFsr.gif) #336699 no-repeat right top
+}
+.RightTabBgCurveid4siteid0 {
+	BACKGROUND: url(http://www.oracle.com/portalimages/FFFFFFtr.gif) #cccc99 no-repeat right top
+}
+.RightTabForeCurveid4siteid0 {
+	BACKGROUND: url(http://www.oracle.com/portalimages/FFFFFFtr.gif) #336699 no-repeat right top
+}
+.SubTabBgTextid4siteid0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 11pt; COLOR: #cccc99; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.TabBackgroundColorid4siteid0 {
+	BACKGROUND-COLOR: #cccc99
+}
+.TabBackgroundTextid4siteid0 {
+	FONT-SIZE: 10pt; COLOR: #003366; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.TabForegroundColorid4siteid0 {
+	BACKGROUND-COLOR: #336699
+}
+.TabForegroundTextid4siteid0 {
+	FONT-WEIGHT: bold; FONT-SIZE: 10pt; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica; TEXT-DECORATION: none
+}
+.RegionNoBorder {
+	
+}
+.RegionBorder {
+	BORDER-RIGHT: #336699 1px solid; BORDER-TOP: #336699 1px solid; BORDER-LEFT: #336699 1px solid; BORDER-BOTTOM: #336699 1px solid
+}
+.RegionHeaderColor {
+	BORDER-RIGHT: #336699 0px solid; BORDER-TOP: #336699 0px solid; BORDER-LEFT: #336699 0px solid; BORDER-BOTTOM: #336699 0px solid
+}
+.PageColor {
+	BACKGROUND-COLOR: #ffffff
+}
