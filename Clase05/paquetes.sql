@@ -30,7 +30,7 @@ begin
 end;  
 
 END testpackage; 
-
+/
 
 select scott.testpackage.suma(34,56) from dual;
 
