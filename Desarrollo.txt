@@ -33,3 +33,14 @@ CLASE 04
 2.- SQL EN PL/SQL
 3.- TRANSACCIONES - CASO
 
+
+CLASE 05
+================================	
+1.- Cursores
+2.- Paquetes
+3.- Desencadenantes
+4.- Examen
+
+
+
+
